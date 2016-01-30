@@ -67,7 +67,7 @@
 		}
 
 			ul.alt li {
-				border-top: solid 1px #c8cccf;
+				border-top: solid 1px $color-tertiary;
 				padding: 0.5em 0;
 			}
 
@@ -95,7 +95,7 @@
 					width: 3.75em;
 					height: 3.75em;
 					border-radius: 100%;
-					border: solid 1px #c8cccf;
+					border: solid 1px $color-tertiary;
 					line-height: 3.75em;
 					overflow: hidden;
 					text-align: center;
@@ -113,7 +113,7 @@
 
 					ul.icons li a:before {
 						color: #ffffff;
-						text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
+						text-shadow: 1.25px 0px 0px $color-tertiary, -1.25px 0px 0px $color-tertiary, 0px 1.25px 0px $color-tertiary, 0px -1.25px 0px $color-tertiary;
 					}
 
 					ul.icons li a:hover:before {
@@ -224,7 +224,7 @@
 				width: 100%;
 				height: 1px;
 				z-index: -1;
-				background: #c8cccf;
+				background: $color-tertiary;
 			}
 
 		@media screen and (max-width: 480px) {
@@ -257,7 +257,7 @@
 		align-self: flex-end;
 		width: 100%;
 		padding: 1.5em 0 0 0;
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(255, 255, 255, 0.7);
 		cursor: default;
 		text-align: center;
 	}
