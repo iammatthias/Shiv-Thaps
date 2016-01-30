@@ -1,0 +1,30 @@
+// Base
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// The base font-size is set at 62.5% for having the convenience
+// of sizing rems in a way that is similar to using px. 1.6rem=16px
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+// Default body styles
+body {
+  background: $color-initial;
+  color: $color-tertiary;
+
+  font-size: 1.6em;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+
+  margin: 0 auto;
+  max-width: 112rem;
+  padding: 0 0rem;
+  width: 100%;
+}
+
+footer, header {
+	display: block;
+  padding: 1.5rem 2.5rem;
+}
