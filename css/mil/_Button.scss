@@ -15,9 +15,8 @@
   border-radius: 0.25em;
   border-style: solid;
   border-width: 1px;
-  color: #111;
+color: $color-tertiary;
   display: inline-block;
-  font-family: avenir, helvetica, roboto, arial, sans-serif;
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;
   padding: 1em 1.5em;
@@ -49,7 +48,8 @@
   <a href="#" class="btn btn--l">
 */
 .btn--s {
-  font-size: 14px; }
+  font-size: 14px;
+color: $color-tertiary;}
 
 .btn--m {
   font-size: 16px; }
