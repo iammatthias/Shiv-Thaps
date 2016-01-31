@@ -13,26 +13,26 @@ From: Santa Monica, California, USA
 
 # Built With:
 
-## Static Site Generator
+##### Static Site Generator
 * [HarpJS](http://harpjs.com)
 
-## CSS Stuff
+##### CSS Stuff
 * [Avalanche](http://colourgarden.net/avalanche/)
 * [Milligram](http://milligram.github.io)
 
-## JS Stuff
+#### JS Stuff
 * [Mosaic.js](https://github.com/maraisr/mosaic.js)
 
-## Deployment
+#### Deployment
 * [Surge](https://surge.sh)
 
-## Etc.
+#### Etc.
 * [humans.txt](http://humanstxt.org)
 * [Google Webmaster](http://www.google.com/webmasters/)
 
 
 
-# SITE
+### Info
 Last update: 01/29/2016
 
 Language: English
