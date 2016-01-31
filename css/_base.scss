@@ -30,9 +30,7 @@
 		.icon:before {
 
 			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
-			text-transform: none !important;
+
 		}
 
 		.icon > .label {
@@ -41,15 +39,6 @@
 
 /* List */
 
-	ol {
-		list-style: decimal;
-		margin: 0 0 1.5em 0;
-		padding-left: 1.25em;
-	}
-
-		ol li {
-			padding-left: 0.25em;
-		}
 
 	ul {
 		list-style: disc;
@@ -60,21 +49,6 @@
 		ul li {
 			padding-left: 0.5em;
 		}
-
-		ul.alt {
-			list-style: none;
-			padding-left: 0;
-		}
-
-			ul.alt li {
-				border-top: solid 1px $color-tertiary;
-				padding: 0.5em 0;
-			}
-
-				ul.alt li:first-child {
-					border-top: 0;
-					padding-top: 0;
-				}
 
 		ul.icons {
 			cursor: default;
@@ -106,9 +80,7 @@
 					ul.icons li a:before {
 
 						font-family: FontAwesome;
-						font-style: normal;
-						font-weight: normal;
-						text-transform: none !important;
+
 					}
 
 					ul.icons li a:before {
@@ -160,19 +132,6 @@
 					padding-right: 0;
 				}
 
-	dl {
-		margin: 0 0 1.5em 0;
-	}
-
-		dl dt {
-			display: block;
-			margin: 0 0 0.75em 0;
-		}
-
-		dl dd {
-			margin-left: 1.5em;
-		}
-
 
 
 /* Main */
@@ -187,18 +146,7 @@
 		cursor: default;
 		opacity: 0.95;
 		text-align: center;
-		-moz-transform-origin: 50% 50%;
-		-webkit-transform-origin: 50% 50%;
-		-ms-transform-origin: 50% 50%;
-		transform-origin: 50% 50%;
-		-moz-transform: rotateX(0deg);
-		-webkit-transform: rotateX(0deg);
-		-ms-transform: rotateX(0deg);
-		transform: rotateX(0deg);
-		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-		transition: opacity 1s ease, transform 1s ease;
+
 	}
 
 		#main .avatar {
@@ -242,50 +190,35 @@
 
 		}
 
-		body.is-loading #main {
-			opacity: 0;
-			-moz-transform: rotateX(15deg);
-			-webkit-transform: rotateX(15deg);
-			-ms-transform: rotateX(15deg);
-			transform: rotateX(15deg);
-		}
+
 
 /* Footer */
 
-	#footer {
+	footer {
 
 		align-self: flex-end;
-		width: 100%;
-		padding: 1.5em 0 0 0;
-		color: rgba(255, 255, 255, 0.7);
+
+		
 		cursor: default;
 		text-align: center;
 	}
+
+  .bottom {
+    padding: 1em 0 0 0;
+    align-self: center;
+    p {
+    font-size: 1.25rem;
+    }
+  }
 
 
 /* Wrapper */
 
 	#wrapper {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
+
 		display: flex;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
 		align-items: center;
-		-moz-justify-content: space-between;
-		-webkit-justify-content: space-between;
-		-ms-justify-content: space-between;
-		justify-content: space-between;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
 		flex-direction: column;
-		-moz-perspective: 1000px;
-		-webkit-perspective: 1000px;
-		-ms-perspective: 1000px;
-		perspective: 1000px;
 		position: relative;
 		min-height: 100%;
 		padding: 1.5em;
