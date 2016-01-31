@@ -4,6 +4,8 @@ Owner: Shivam Thapar
 # Site
 Author: Matthias Jordan
 
+Author Site: [http://iammatthias.com](http://iammatthias.com)
+
 Contact: me [at] iammatthias.com
 
 Twitter: @iammatthias
