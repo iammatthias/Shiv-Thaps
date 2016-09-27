@@ -1,0 +1,16 @@
+{
+  "name": "Shivam Thapar",
+  "description": "Portfolio",
+  "author": {
+    "name": "Shivam Thapar",
+    "url": "http://shivamthapar.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "harp": "^0.20.3",
+    "surge": "^0.18.0"
+  },
+  "scripts": {
+    "test": "echo \"meep morp\""
+  }
+}
