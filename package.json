@@ -1,10 +1,4 @@
 {
-  "name": "Shivam Thapar",
-  "description": "Portfolio",
-  "author": {
-    "name": "Shivam Thapar",
-    "url": "http://shivamthapar.com"
-  },
   "dependencies": {},
   "devDependencies": {
     "harp": "^0.20.3",
